@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3902d6b9a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.0f31d2ea.ico">
+    <title>Login - Spotify</title>
+</head>
+<body>
+    <div class="bg-[#181818] h-screen">
+        <header class="bg-black h-[100px] leading-[100px] pl-10 w-full">
+            <a class="text-white font-bold text-xl drop-shadow-lg" href="">
+                <i class="fa-brands fa-spotify"></i>
+                Spotify</a>
+        </header>
+        <div class="w-2/5 bg-black h-5/6 mt-14 m-auto rounded-lg">
+            <div class="w-3/4 bg-black h-full m-auto py-10">
+                <h1 class="font-bold text-4xl text-white text-center">Log in to Spotify</h1>
+                <section class="flex flex-col text-white items-center border-b-[1px] border-[#292929]">
+                    <button class="border-[1px] border-white w-2/4 rounded-3xl mt-5 mb-5 p-3"><i class="fa-brands fa-google"></i>&nbsp;&nbsp;Continue with Google</button>
+                    <button class="border-[1px] border-white w-2/4 rounded-3xl mb-5 p-3"><i class="fa-brands fa-facebook text-blue"></i>&nbsp;&nbsp;Continue with Facebook</button>
+                    <button class="border-[1px] border-white w-2/4 rounded-3xl mb-5 p-3"><i class="fa-brands fa-apple"></i>&nbsp;&nbsp;Continue with Apple</button>
+                    <button class="border-[1px] border-white w-2/4 rounded-3xl mb-10 p-3">Continue with phone number</button>
+                </section>
+                <section class="mt-10">
+                    <label class="block w-2/4 m-auto">
+                        <span class="block text-sm font-medium text-white font-bold">
+                          Email or username
+                        </span>
+                        <input type="email" name="email" class="mt-2 px-3 py-3 bg-[#121212] border shadow-sm border-slate-300 placeholder-[#a7a7a7] focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+                    </label>
+                    <label class="block w-2/4 m-auto mt-5">
+                        <span class="block text-sm font-medium text-white font-bold">
+                          Password
+                        </span>
+                        <input type="password" name="password" class="mt-2 px-3 py-3 bg-[#121212] border shadow-sm border-slate-300 placeholder-[#a7a7a7] focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="you@example.com" />
+                    </label>
+                    <button class="block bg-[#1ed760] p-3 m-auto mt-5 font-bold rounded-3xl w-3/5">Log in</button>
+                    <footer class="text-center mt-3">
+                        <a class="text-white text-lg text-right underline decoration-2" href="#">Forgot your password?</a>
+                    </footer>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
